@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 1000px;
+	margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -43,6 +45,7 @@ q:before, q:after {
 	content: none;
 }
 table {
+	border: 10px solid black; 
 	border-collapse: collapse;
 	border-spacing: 0;
 }
@@ -64,3 +67,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+.navbar a{
+	color: gray;
+	text-align: center;
+	padding: 14px 16px; 
+	text-decoration: none;
+	font-size: 17px;
+	box-sizing: border-box;
+	width: 100%;
+}
+.header {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 60px;
+	margin-top: 40px;
+}
+h1{
+	font-size: 59px;
+}
+.header-left {
+
+text-align: center;
+font-family: 'Bangers', cursive;
+letter-spacing: 3px;
+/*display: inline;*/
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+width: 50%;
+
+}
+.header-right{
+	/*display:inline;*/
+	width: 50%;
+} 
+
+#top .left1 {
+
+	vertical-align: baseline;
+	display: inline-block;
+	width: 49%;
+}
+
+#top .right1 {
+
+	vertical-align: baseline;
+	display: inline-block;
+	width: 49.9%;
+}
+
+.middle-img {
+width:100%;
+}
+
+#bottom .left2 {
+
+	vertical-align: baseline;
+	display: inline-block;
+	width: 33%;
+}
+
+#bottom .middle2 {
+
+	vertical-align: baseline;
+	display: inline-block;
+	width: 33%;
+}
+
+#bottom .right2 {
+
+	vertical-align: baseline;
+	display: inline-block;
+	width: 33%;
+}
+.copyright {
+	text-align: center;
+	width: 100%;
+}
+button {
+background-color:white;
+padding: 10px 15px;
+}
